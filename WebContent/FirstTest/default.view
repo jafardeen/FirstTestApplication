@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<view>
+  <property name='pageManagedBean' value='FirstTestDefaultviewView' />
+  <property name='preferencesBean' value='FirstTest' />
+  <design-time-attribute name='portlet' value='FirstTest' />
+  <control component-type='com.webmethods.caf.faces.output.ErrorMessages' renderer-type='com.webmethods.caf.faces.output.ErrorMessages'>
+  </control>
+  <control component-type='com.webmethods.caf.faces.command.CommandForm' renderer-type='com.webmethods.caf.faces.Form'>
+    <property name='defaultFocus' value='_first' />
+    <property name='id' value='defaultForm' />
+    <control component-type='javax.faces.HtmlOutputText' renderer-type='com.webmethods.caf.faces.Text'>
+      <property name='id' value='htmlOutputText' />
+      <property name='raw' value='true' />
+      <property name='value' value='Hi There! Its Working!' />
+    </control>
+  </control>
+</view>
